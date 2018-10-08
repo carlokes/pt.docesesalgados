@@ -11,4 +11,19 @@ public class MainController {
         return "index";
     }
 
+    @RequestMapping("/encomendas")
+    public String encomendas() {
+        return "encomendas";
+    }
+
+    @RequestMapping("/receitas")
+    public String receitas() {
+        return "receitas";
+    }    
+    
+    @RequestMapping("/stock")
+    public String stock() {
+        return "stock";
+    }    
+    
 }
